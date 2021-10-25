@@ -46,3 +46,8 @@ let theo = students.filter((student) => {
 console.log(theo[0].age);
 
 
+console.log('---------------------------')
+let numbers = [7,2,4,1,5,3,6,8];
+let sorted = numbers.sort((a,b) => {return a-b});
+console.log(sorted);
+
